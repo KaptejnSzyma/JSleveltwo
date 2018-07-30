@@ -118,12 +118,10 @@ function caught_speeding(speed, is_birthday){
   if (speed <= 60) {
     return 0;
   }
-  else if (60 < speed <= 80) {
+  if (speed <= 80 && speed > 60) {
     return 1;
   }
-  else {
-    return 2;
-  }
+  return 2;
 }
 
 
