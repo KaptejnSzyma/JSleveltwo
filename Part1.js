@@ -27,3 +27,6 @@ function fun(stuff) {
   stuff = "Reassign stuff inside func"
   console.log(stuff);
 }
+
+fun()
+console.log(stuff);
