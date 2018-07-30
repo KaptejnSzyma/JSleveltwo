@@ -9,3 +9,7 @@ function addNum(num1, num2) {
 function helloSomeone(name="Frankie") {
   console.log("Hello "+name);
 }
+
+function formal(name="Sam", title='Sir') {
+  return title + " " + name
+}
